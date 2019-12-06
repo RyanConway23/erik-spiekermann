@@ -1,0 +1,297 @@
+/*-------------CSS Reset-------------*/
+
+
+*{
+padding:0;
+margin:0;
+font-size: 100%;
+line-height: 1em;
+}
+
+/*--------------Main Body----------*/
+
+body {
+  width: 100%;
+  font-size: 100%;
+  color: #141414;
+  max-width: 1500px;
+  margin: 1em 0 }
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  padding-bottom:1em;
+  max-width: 1500px;
+}
+
+section{
+  min-height: 50vh;
+  height: auto;
+  box-sizing: border-box;
+}
+
+section p{
+  padding: 2em 0 0.5em 0;
+  line-height: 1.25em;
+}
+
+.flex-container {
+  display: flex;
+}
+
+
+
+
+/*--------Typography-------*/
+
+@typeface {
+font-family: 'Work Sans', sans-serif;
+font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  font-family: 'Lato', sans-serif;
+
+}
+
+p {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Lato', sans-serif;
+}
+
+/*------Navigation Bar-----*/
+
+nav {
+  box-sizing: border-box;
+  width: 100%;
+  position:fixed;
+  background-color: #feca57;
+  height: auto;
+  flex-wrap: wrap;
+  padding: 1em;
+  justify-content: flex-start;
+  margin-top: 0;
+}
+
+a {
+  text-decoration:none;
+  font-size: 1em;
+  padding-right: 1em;
+  color: #141414;
+  padding-top: 1em;
+  font-family: 'Lato', sans-serif;
+  padding-bottom: 1em;
+  letter-spacing: 5em;
+
+}
+
+/*-----home----*/
+
+#home {
+  padding-top: 4em;
+  width: 100%;
+}
+
+
+/*--------Question----*/
+
+#question {
+  flex-wrap: wrap;
+  font-weight: bold;
+  font-size: 2.5em;
+  text-align: center;
+padding-bottom: 4.5em;
+padding-top: 4.5em;
+
+}
+
+
+
+/*------intro-----*/
+
+#intro {
+  background-color: #ee5253;
+
+
+
+}
+
+#intro {
+  width: 100%;
+  height: auto;
+}
+
+#intro-text {
+  font-size: 1.5em;
+  font-weight: normal;
+  font-family: 'Work Sans',sans-serif;
+  padding-left: 0.75em;
+  color: white;
+  padding-top: 4.5em;
+}
+
+/*------section 2-------*/
+
+#section-2 .flex-container{
+  background-color: white;
+}
+
+#section-2 img {
+  padding-top: 0.5em;
+  height: auto;
+  padding-bottom: 1.25em;
+  width: 100%;
+
+}
+
+#section-2 .flex-item {
+  width: 100%;
+  padding-top: 1.25em;
+}
+
+#early-life{
+  padding-top: 0.5em;
+  font-size: 3em;
+  padding-left: 0.5em;
+}
+
+#text{
+  font-size: 1.25em;
+  padding-left: 1.75em;
+}
+
+/*------section 3-------*/
+
+#section-3 .flex-container{
+  background-color: #feca57;
+  flex-wrap:flex;
+  padding-bottom: 3.5em;
+}
+
+#section-3 img {
+  padding-top: 8.5em;
+  height: auto;
+  padding-bottom: 1.25em;
+  width: 100%;
+  float: left;
+  align-self: flex-start;
+}
+
+#section-3 .flex-item {
+  width: 100%;
+  padding-top: 1.25em;
+}
+
+#career{
+  padding-top: 0.5em;
+  font-size: 3em;
+  padding-left: 0.35em;
+}
+
+#career-text{
+  font-size: 1.25em;
+  padding-left: 12.75em;
+  display: inline-block;
+  padding-top: 6em;
+}
+
+aside {
+  flex:auto;
+
+}
+
+
+/*------section 4-------*/
+
+#section-4 .flex-container{
+  background-color: white;
+}
+
+#section-4 img {
+  padding-top: 0.5em;
+  height: auto;
+  padding-bottom: 1.25em;
+  width: 100%;
+
+}
+
+#section-4 .flex-item {
+  width: 100%;
+  padding-top: 1.25em;
+}
+
+#awards{
+  padding-top: 0.5em;
+  font-size: 3em;
+  padding-left: 0.75em;
+}
+
+#awards-text{
+  font-size: 1.25em;
+  padding-left: 1.75em;
+  padding-right: 0.75em;
+}
+
+/*------section 5-------*/
+
+#section-5 .flex-container{
+  background-color: #10ac84;
+  padding-bottom: 18em;
+
+}
+
+#section-5 img {
+  padding-top: 0.5em;
+  height: auto;
+  padding-bottom: 1.25em;
+  width: 100%;
+
+}
+
+#section-5 .flex-item {
+  width: 100%;
+  padding-top: 1.25em;
+}
+
+#typeface{
+  padding-top: 0.5em;
+  font-size: 3em;
+  padding-left: 0.75em;
+
+}
+
+#typeface-text{
+  font-size: 1.25em;
+  padding-left: 1.75em;
+  padding-right: 0.75em;
+  
+}
+
+/*------section 6-----*/
+
+#section-6 .flex-container {
+  background-color: #222f3e;
+  padding-bottom: 3em;
+}
+
+#conclusion {
+  padding-top: 0.5em;
+  font-size: 3em;
+  padding-left: 0.75em;
+  color: #fafafa;
+}
+
+#conclusion-text {
+  font-size: 1.25em;
+  padding-left: 0.75em;
+  color: #fafafa;
+  float: left;
+  padding-right: 1.75em;
+
+}
