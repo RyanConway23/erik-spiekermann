@@ -54,6 +54,9 @@ section p{
 }
 
 
+article{
+  display: flex;
+padding-right: 1em;}
 
 
 /*--------Typography-------*/
@@ -78,6 +81,10 @@ h3 {
   font-family: 'Lato', sans-serif;
 }
 
+#home h3 {
+  padding-left: .2em;
+}
+
 /*------Navigation Bar-----*/
 
 nav {
@@ -92,6 +99,7 @@ nav {
   flex-wrap: wrap;
   padding: 1.5em;
   justify-content: flex-start;
+  border-bottom: 8px solid #cc9b2f;
 
 }
 
@@ -104,10 +112,11 @@ nav a {
   font-family: 'Lato', sans-serif;
   padding-bottom: 1em;
   text-align: center;
-
-
 }
 
+nav a:hover{
+  color: #a67d23;
+}
 
 
 
@@ -131,6 +140,10 @@ nav a {
 
 .white {
   color: white;
+}
+
+.yellow{
+  color: #f5be47;
 }
 
 
@@ -177,12 +190,13 @@ padding-top: 4.5em;
 
 #section-2 .flex-container{
   background-color: white;
+
 }
 
 #section-2 img {
   padding-top: 0.5em;
   height: auto;
-  padding-bottom: 1.25em;
+  padding-bottom: 0.85em;
   width: 100%;
 
 }
@@ -201,6 +215,12 @@ padding-top: 4.5em;
 #text{
   font-size: 1.25em;
   padding-left: 1.75em;
+  width: 80%;
+}
+
+cite {
+font-family: 'Work Sans',sans-serif;
+font-style: italic;
 }
 
 /*------section 3-------*/
@@ -211,13 +231,14 @@ padding-top: 4.5em;
   padding-bottom: 3.5em;
 }
 
-#section-3 img {
+#section-3 {
   padding-top: 8.5em;
   height: auto;
   padding-bottom: 1.25em;
   width: 100%;
   float: left;
   align-self: flex-start;
+  margin-left: 0 0;
 }
 
 #section-3 .flex-item {
@@ -229,13 +250,15 @@ padding-top: 4.5em;
   padding-top: 0.5em;
   font-size: 3em;
   padding-left: 0.35em;
+
 }
 
 #career-text{
   font-size: 1.25em;
-  padding-left: 12.75em;
+  padding-left: 3.75em;
   display: inline-block;
   padding-top: 6em;
+  width: 80%;
 }
 
 aside {
@@ -243,6 +266,12 @@ aside {
 
 }
 
+.flex-item-image-1{
+  padding-top: 8.5em;
+  padding-right: 1em;
+  padding-bottom: 1.25em;
+  width: 200%;
+}
 
 /*------section 4-------*/
 
@@ -252,15 +281,22 @@ aside {
 
 #section-4 img {
   padding-top: 0.5em;
-  height: auto;
+  padding-right: 1em;
   padding-bottom: 1.25em;
   width: 100%;
 
 }
 
 #section-4 .flex-item {
-  width: 100%;
+  max-width: 70%;
   padding-top: 1.25em;
+}
+
+.flex-item-image{
+  padding-top: 0.5em;
+  padding-right: 1em;
+  padding-bottom: 1.25em;
+  width: 300%;
 }
 
 #awards{
@@ -273,6 +309,7 @@ aside {
   font-size: 1.25em;
   padding-left: 1.75em;
   padding-right: 0.75em;
+  width: 90%;
 }
 
 /*------section 5-------*/
@@ -281,13 +318,17 @@ aside {
   background-color: #10ac84;
   padding-bottom: 18em;
 
+
 }
 
-#section-5 img {
-  padding-top: 0.5em;
+.flex-item-image-type {
+  padding-top: 2.5em;
   height: auto;
   padding-bottom: 1.25em;
   width: 100%;
+  margin-left: -75px;
+
+
 
 }
 
@@ -300,13 +341,18 @@ aside {
   padding-top: 0.5em;
   font-size: 3em;
   padding-left: 0.75em;
+  width: 100%;
+position:absolute;
 
 }
 
 #typeface-text{
+  padding-top: 3.5em;
   font-size: 1.25em;
+
+  width: 70%;
   padding-left: 1.75em;
-  padding-right: 0.75em;
+
 
 }
 
@@ -322,13 +368,14 @@ aside {
   font-size: 3em;
   padding-left: 0.75em;
   color: #fafafa;
+  position: absolute;
 }
 
 #conclusion-text {
   font-size: 1.25em;
-  padding-left: 0.75em;
+  padding-left: 1.75em;
   color: #fafafa;
   float: left;
   padding-right: 1.75em;
-
+padding-top: 3em;
 }
