@@ -6,6 +6,7 @@ padding:0;
 margin:0;
 font-size: 100%;
 line-height: 1em;
+max-width: 100%;
 }
 
 /*--------------Main Body----------*/
@@ -97,7 +98,7 @@ nav {
   background-color: #feca57;
   height: auto;
   flex-wrap: wrap;
-  padding: 1.5em;
+  padding: 1em;
   justify-content: flex-start;
   border-bottom: 8px solid #cc9b2f;
 
@@ -132,7 +133,7 @@ nav a:hover{
   height: 710px;
   background-image: url("../images/bg.jpg");
   background-repeat: no-repeat;
-  margin-top: 80px;
+  margin-top: 70px;
   text-align: left;
   padding-left:1em;
   font-size: 1.5em;
@@ -316,7 +317,7 @@ aside {
 
 #section-5 .flex-container{
   background-color: #10ac84;
-  padding-bottom: 18em;
+  padding-bottom: 1em;
 
 
 }
@@ -360,7 +361,7 @@ position:absolute;
 
 #section-6 .flex-container {
   background-color: #222f3e;
-  padding-bottom: 3em;
+
 }
 
 #conclusion {
@@ -378,4 +379,79 @@ position:absolute;
   float: left;
   padding-right: 1.75em;
 padding-top: 3em;
+}
+
+/*---------sectionwork---------*/
+
+#section-work .flex-container{
+  background-color: #c8d6e5;
+
+}
+
+#section-work img {
+  padding-top: 4.5em;
+  padding-right: 1em;
+
+  width: 100%;
+
+}
+
+#section-work .flex-item {
+  max-width: 70%;
+  padding-top: 1.25em;
+}
+
+.flex-item-image{
+  padding-top: 0.5em;
+  padding-right: 1em;
+
+  width: 300%;
+}
+
+#work{
+  padding-top: 0.5em;
+  font-size: 3em;
+  padding-left: 0.75em;
+
+}
+
+#work-text{
+  font-size: 1.25em;
+  padding-left: 2em;
+  padding-right: 0.75em;
+  width: 100%;
+  color: black;
+}
+
+#airport-text{
+  font-size: 1.25em;
+  padding-left: 2em;
+  padding-right: 0.75em;
+  width: 80%;
+  color: black;
+}
+
+#dusseldorf-image{
+  max-width: 70%;
+  flex: 1;
+
+}
+
+#unit-image{
+  max-width: 100%;
+  padding-left: 1em;
+  margin: auto;
+}
+
+
+#bibliography li{
+  font-family: 'Work Sans',sans-serif;
+}
+
+#bibliography{
+  background-color: #341f97;
+  color: #fafafa;
+  padding-top: 2em;
+  padding-bottom: 6em;
+  padding-left: 1.5em;
 }
